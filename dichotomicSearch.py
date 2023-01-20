@@ -65,6 +65,8 @@ def main():
             MINmse = inf
             # Applying the function
             x, y, minmse, bloc = dichotomicSearch(bloc92, i + 8, j + 8, MINmse)  # +8 for the center of the bloc
+            x -= 72
+            y -= 72
             # Checking the MSE value
             if minmse > 50:
                 # The resédu
