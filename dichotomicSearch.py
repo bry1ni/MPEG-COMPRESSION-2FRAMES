@@ -6,7 +6,7 @@ import numpy as np
 from math import inf
 import time
 
-# --- GLOBAL DECLARATIONS --- #
+# --- GLOBAL DECLARATIONS --- 
 
 img72 = cv2.imread('images/OriginalImages/image072.png')
 img72padding = cv2.imread('images/OriginalImages/image072padding.png')
