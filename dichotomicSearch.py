@@ -50,8 +50,8 @@ def dichotomicSearch(bloc, pointi, pointj, minmse):
         stepToVosin /= 2
         # We continue from the block with the smallest MSE between the 9 blocks after every step
         # So the affectation of (x,y) into (debut_i, debut_j) is required
-        debut_i = x
-        debut_j = y
+        debut_i = x - stepToVosin - 8
+        debut_j = y - stepToVosin - 8
 
     # We return the coordinates of the last block ( when step == 1 )
     return x, y, minmse, bloc72
